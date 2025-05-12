@@ -1,0 +1,61 @@
+header {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    width: 80%;
+    max-width: 800px;
+    margin: 2rem auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.container {
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    margin: 20px auto;
+    max-width: 1850px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.container h1, .container p {
+    color: white;
+}
+
+.intro {
+    background: #eee;
+    padding: 20px;
+    border-radius: 8px;
+    color: black;
+    max-width: 1850px;
+}
+
+.card_intro {
+    background-image: url('./img/card_intro.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 930px;
+}
+
+.card_sup {
+    background-image: url('card_cultura.jpeg');
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 930px;
+    height: auto;
+}
